@@ -14,7 +14,7 @@ int main()
   if ((letters >=65) && (letters <=90)) {
 
   //when user's entry is between A-Z...
-  cout<<letters<<" is a upper case letter!\n";
+  cout<<letters<<" is an upper case letter!\n";
   } else if ((letters >=97) && (letters <=122)) {
 
   //when user's entry is between a-z...
