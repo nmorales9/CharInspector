@@ -14,15 +14,15 @@ int main()
   if ((letters >=65) && (letters <=90)) {
 
   //when user's entry is between A-Z...
-  cout<<" is a upper case letter!\n";
+  cout<<letters<<" is a upper case letter!\n";
   } else if ((letters >=97) && (letters <=122)) {
 
   //when user's entry is between a-z...
-  cout<<" is a lower case letter!\n";
+  cout<<letters<<" is a lower case letter!\n";
   } else {
 
   //in all other cases...
-  cout<<"?! Pssh. What are you talking about?\n";
+  cout<<letters<<"?! Pssh. What are you talking about?\n";
   }
   //no matter what they enter...
   cout<<"The ASCII value is: " << (int) letters << endl; 
